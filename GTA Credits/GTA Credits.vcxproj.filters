@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="GTACredits.cpp" />
+    <ClCompile Include="iniconfig\INIFile.cpp">
+      <Filter>iniconfig</Filter>
+    </ClCompile>
+    <ClCompile Include="iniconfig\INISection.cpp">
+      <Filter>iniconfig</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="iniconfig">
+      <UniqueIdentifier>{62df5d54-f6fe-4ec7-bc47-6e8795a6f915}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="iniconfig\INIFile.h">
+      <Filter>iniconfig</Filter>
+    </ClInclude>
+    <ClInclude Include="iniconfig\INISection.h">
+      <Filter>iniconfig</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h" />
+  </ItemGroup>
+</Project>
